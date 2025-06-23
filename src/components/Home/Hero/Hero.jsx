@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Hero.css"
-import Title from '../../Title/Title'
+import Title from '../../common/Title/Title'
+
 
 const Hero = () => {
   return (
