@@ -42,3 +42,207 @@ export const awrapper = [
     title: "AI COURSES",
   },
 ]
+
+export const coursesCard = [
+  {
+    id: 1,
+    cover: "../images/courses/c1.png", 
+    coursesName: "Introduction to Artificial Intelligence & ML",
+    courTeacher: [
+      {
+        dcover: "./images/back.webp", 
+        name: "by Dr. Anya Sharma (AI Scientist)",
+        totalTime: "75 lectures (250 hrs)", 
+      },
+    ],
+    priceAll: "$100 All Course",
+    pricePer: "$15 per month",
+  },
+  {
+    id: 2,
+    cover: "../images/courses/c2.png", 
+    coursesName: "Advanced Deep Learning with TensorFlow & PyTorch",
+    courTeacher: [
+      {
+        dcover: "./images/back.webp",
+        name: "by Prof. Kenji Tanaka (AI Researcher)",
+        totalTime: "60 lectures (200 hrs)", 
+      },
+    ],
+    priceAll: "$200 All Course",
+    pricePer: "$25 per month",
+  },
+  {
+    id: 3,
+    cover: "../images/courses/c3.png", 
+    coursesName: "Natural Language Processing (NLP) Fundamentals",
+    courTeacher: [
+      {
+        dcover: "./images/back.webp",
+        name: "by Dr. Emily White (NLP Expert)",
+        totalTime: "50 lectures (150 hrs)", 
+      },
+    ],
+    priceAll: "$50 All Course",
+    pricePer: "$5 per month",
+  },
+  {
+    id: 4,
+    cover: "../images/courses/c4.png", 
+    coursesName: "Computer Vision & Image Recognition",
+    courTeacher: [
+      {
+        dcover: "./images/back.webp",
+        name: "by Dr. Omar Khan (CV Specialist)",
+        totalTime: "40 lectures (180 hrs)", 
+      },
+    ],
+    priceAll: "$30 All Course",
+    pricePer: "$3 per month",
+  },
+  {
+    id: 5,
+    cover: "../images/courses/c5.png", 
+    coursesName: "Reinforcement Learning & AI Agents",
+    courTeacher: [
+      {
+        dcover: "./images/back.webp",
+        name: "by Dr. Lena Schmidt (RL Expert)",
+        totalTime: "100 lectures (250 hrs)",
+      },
+    ],
+    priceAll: "$300 All Course",
+    pricePer: "$30 per month",
+  },
+  {
+    id: 6,
+    cover: "../images/courses/c6.png", 
+    coursesName: "Ethical AI & Responsible Development",
+    courTeacher: [
+      {
+        dcover: "./images/back.webp",
+        name: "by Prof. David Lee (AI Ethicist)",
+        totalTime: "30 lectures (100 hrs)", 
+      },
+    ],
+    priceAll: "$500 All Course",
+    pricePer: "$80 per month",
+  },
+  {
+    id: 7,
+    cover: "../images/courses/c7.png", 
+    coursesName: "Data Preprocessing for AI & ML",
+    courTeacher: [
+      {
+        dcover: "./images/back.webp",
+        name: "by Sarah Connor (Data Engineer)",
+        totalTime: "20 lectures (75 hrs)", 
+      },
+    ],
+    priceAll: "$20 All Course",
+    pricePer: "$2 per month",
+  },
+  {
+    id: 8,
+    cover: "../images/courses/c8.png", 
+    coursesName: "AI Model Deployment (MLOps)",
+    courTeacher: [
+      {
+        dcover: "./images/back.webp",
+        name: "by Michael Chen (MLOps Specialist)",
+        totalTime: "80 lectures (220 hrs)", 
+      },
+    ],
+    priceAll: "$200 All Course",
+    pricePer: "$40 per month",
+  },
+  {
+    id: 9,
+    cover: "../images/courses/c9.png", 
+    coursesName: "Generative AI & Creative Applications",
+    courTeacher: [
+      {
+        dcover: "./images/back.webp",
+        name: "by Dr. Julia Roberts (Generative AI Expert)",
+        totalTime: "50 lectures (160 hrs)", 
+      },
+    ],
+    priceAll: "$20 All Course",
+    pricePer: "$3 per month",
+  },
+]
+
+export const online = [
+  {
+    cover: "./images/courses/online/o1.png",
+    hoverCover: "./images/courses/online/o1.1.png",
+    courseName: "Machine Learning Fundamentals",
+    course: "25 Courses",
+  },
+  {
+    cover: "./images/courses/online/o2.png",
+    hoverCover: "./images/courses/online/o2.1.png",
+    courseName: "Deep Learning & Neural Networks",
+    course: "25 Courses",
+  },
+  {
+    cover: "./images/courses/online/o3.png",
+    hoverCover: "./images/courses/online/o3.1.png",
+    courseName: "Natural Language Processing (NLP)",
+    course: "10 Courses",
+  },
+  {
+    cover: "./images/courses/online/o4.png",
+    hoverCover: "./images/courses/online/o4.1.png",
+    courseName: "Computer Vision & Image AI",
+    course: "15 Courses",
+  },
+  {
+    cover: "./images/courses/online/o5.png",
+    hoverCover: "./images/courses/online/o5.1.png",
+    courseName: "Reinforcement Learning",
+    course: "30 Courses",
+  },
+  {
+    cover: "./images/courses/online/o6.png",
+    hoverCover: "./images/courses/online/o6.1.png",
+    courseName: "AI Ethics & Governance",
+    course: "60 Courses",
+  },
+  {
+    cover: "./images/courses/online/o7.png",
+    hoverCover: "./images/courses/online/o7.1.png",
+    courseName: "AI in Healthcare",
+    course: "10 Courses",
+  },
+  {
+    cover: "./images/courses/online/o8.png",
+    hoverCover: "./images/courses/online/o8.1.png",
+    courseName: "AI for Business & Marketing",
+    course: "30 Courses",
+  },
+  {
+    cover: "./images/courses/online/o9.png",
+    hoverCover: "./images/courses/online/o9.1.png",
+    courseName: "Generative AI & Creativity",
+    course: "80 Courses",
+  },
+  {
+    cover: "./images/courses/online/o10.png",
+    hoverCover: "./images/courses/online/o10.1.png",
+    courseName: "AI in Robotics & Automation",
+    course: "120 Courses",
+  },
+  {
+    cover: "./images/courses/online/o11.png",
+    hoverCover: "./images/courses/online/o11.1.png",
+    courseName: "Data Science for AI",
+    course: "17 Courses",
+  },
+  {
+    cover: "./images/courses/online/o12.png",
+    hoverCover: "./images/courses/online/o12.1.png",
+    courseName: "AI Model Deployment (MLOps)",
+    course: "17 Courses",
+  },
+]

@@ -1,11 +1,13 @@
 .aboutHome{
     height:auto;
+    position:relative;
 }
 
 .aboutHome #heading {
   text-align: left;
   padding: 0;
 }
+
 .aboutHome .left img {
   width: 100%;
   height: 100%;
