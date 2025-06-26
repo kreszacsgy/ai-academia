@@ -44,8 +44,10 @@ header ul li a:hover{
     background-color: #1eb2a6 ;
     padding: 30px 7.5%;
     color: #fff;
+    font-weight:500;
     clip-path: polygon(10% 0, 100% 0, 100% 100%,0 100%)
 }
+
 
 .toggle {
     display:none;

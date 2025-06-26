@@ -6,6 +6,7 @@ import About from './components/About/About';
 import CourseHome from './components/Allcourses/CourseHome';
 import Team from './components/Team/Team';
 import Pricing from './components/Pricing/Pricing';
+import Blog from './components/Blog/Blog';
 
 
 
@@ -20,6 +21,7 @@ function App() {
           <Route path="/courses" element={<CourseHome />}/>
           <Route path="/team" element={<Team />}/>
           <Route path="/pricing" element={<Pricing />}/>
+          <Route path="/blog" element={<Blog />}/>
         </Routes>
       </Router>
     </>

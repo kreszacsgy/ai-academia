@@ -296,21 +296,21 @@ export const testimonal = [
     name: "ANNA CHEN",
     post: "LEAD AI ENGINEER",
     desc: "AI Academia provided me with the hands-on skills and deep theoretical understanding I needed to transition into a lead AI engineering role. The instructors were exceptional, and the course content was directly applicable to industry challenges.",
-    cover: "./images/testo/t1.webp", 
+    cover: "./images/testimonal/t1.jpg", 
   },
   {
     id: 2,
     name: "MARK DAVIS",
     post: "SENIOR DATA SCIENTIST",
     desc: "As a data scientist, I wanted to specialize in AI. AI Academia's advanced deep learning course was exactly what I needed. It pushed my limits and opened up new opportunities for complex problem-solving in real-world AI applications.",
-    cover: "./images/testo/t2.webp", 
+    cover: "./images/testimonal/t2.jpg", 
   },
   {
     id: 3,
     name: "SARAH LEE",
     post: "AI PRODUCT MANAGER",
     desc: "The AI for Business course at AI Academia helped me bridge the gap between technical AI concepts and strategic business applications. I now confidently lead AI product initiatives and drive innovation within my company.",
-    cover: "./images/testo/t3.webp", 
+    cover: "./images/testimonal/t3.jpg", 
   },
 ]
 
@@ -361,4 +361,61 @@ export const faq = [
     title: "Can I access course materials after completing the course?",
     desc: "Yes, once you've enrolled in a course, you'll typically retain access to the course materials (lectures, readings, exercises) for a specified period, often lifetime access or for as long as your subscription is active, allowing you to revisit content as needed.",
   }
+]
+
+export const blog = [
+  {
+    id: 1,
+    type: "admin",
+    date: "JAN. 18, 2025", 
+    com: "3 COMMENTS ",
+    title: "Building Your Future: A Career in Generative AI",
+    desc: "Dive into the exciting world of Generative AI, from foundational concepts to real-world applications. Discover how you can carve out a thriving career in this rapidly expanding field.",
+    cover: "../images/blog/b1.webp", 
+  },
+  {
+    id: 2,
+    type: "admin",
+    date: "APR. 25, 2025", 
+    com: "5 COMMENTS ",
+    title: "The Ethical Imperatives of AI: Navigating Responsible Development",
+    desc: "As AI advances, understanding its ethical implications is crucial. Explore the key principles and best practices for developing AI systems that are fair, transparent, and beneficial for society.",
+    cover: "../images/blog/b2.webp",
+  },
+  {
+    id: 3,
+    type: "admin", 
+    date: "MAY. 15, 2025", 
+    com: "10 COMMENTS ",
+    title: "AI in Business Analytics: Transforming Data into Decisions",
+    desc: "Learn how Artificial Intelligence is revolutionizing business intelligence, enabling deeper insights, predictive modeling, and automated decision-making across various industries.",
+    cover: "../images/blog/b3.webp",
+  },
+  {
+    id: 4,
+    type: "admin",
+    date: "FEB. 02, 2025",
+    com: "3 COMMENTS ",
+    title: "Mastering Machine Learning: From Basics to Advanced Techniques",
+    desc: "Embark on your machine learning journey with our comprehensive guide, covering essential algorithms, model training, and deployment strategies for aspiring AI professionals.",
+    cover: "../images/blog/b4.webp",
+  },
+  {
+    id: 5,
+    type: "admin",
+    date: "DEC. 14, 2024", 
+    com: "3 COMMENTS ",
+    title: "The Rise of Explainable AI (XAI): Understanding Your Models",
+    desc: "Demystify the 'black box' of AI models. Discover why Explainable AI (XAI) is vital for trust, transparency, and debugging in complex AI systems, and how to implement it.",
+    cover: "../images/blog/b5.webp",
+  },
+  {
+    id: 6,
+    type: "user",
+    date: "MAR. 01, 2025", 
+    com: "12 COMMENTS ",
+    title: "Your First Steps in Computer Vision: Building Image Recognition",
+    desc: "Get started with Computer Vision! This post guides you through the foundational concepts and practical steps to build your very first image recognition application.",
+    cover: "../images/blog/b6.webp",
+  },
 ]
