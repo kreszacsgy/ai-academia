@@ -46,11 +46,11 @@ export const awrapper = [
 export const coursesCard = [
   {
     id: 1,
-    cover: "../images/courses/c1.png", // Course specific image
+    cover: "../images/courses/c1.png", 
     coursesName: "Introduction to Artificial Intelligence & ML",
     courTeacher: [
       {
-        dcover: "./images/team/t1.png", // Linked to Dr. Anya Sharma's profile image
+        dcover: "./images/team/t1.png", 
         name: "by Dr. Anya Sharma (AI Scientist)",
         totalTime: "75 lectures (250 hrs)",
       },
@@ -64,7 +64,7 @@ export const coursesCard = [
     coursesName: "Advanced Deep Learning with TensorFlow & PyTorch",
     courTeacher: [
       {
-        dcover: "./images/team/t2.jpg", // Linked to Prof. Kenji Tanaka's profile image
+        dcover: "./images/team/t2.jpg", 
         name: "by Prof. Kenji Tanaka (AI Researcher)",
         totalTime: "60 lectures (200 hrs)",
       },
@@ -75,10 +75,10 @@ export const coursesCard = [
   {
     id: 3,
     cover: "../images/courses/c3.png",
-    coursesName: "Natural Language Processing (NLP) Fundamentals",
+    coursesName: "Natural Language Processing Fundamentals",
     courTeacher: [
       {
-        dcover: "./images/team/t3.jpg", // Linked to Dr. Emily White's profile image
+        dcover: "./images/team/t3.jpg", 
         name: "by Dr. Emily White (NLP Expert)",
         totalTime: "50 lectures (150 hrs)",
       },
@@ -92,7 +92,7 @@ export const coursesCard = [
     coursesName: "Computer Vision & Image Recognition",
     courTeacher: [
       {
-        dcover: "./images/team/t4.jpg", // Linked to Dr. Omar Khan's profile image
+        dcover: "./images/team/t4.jpg",
         name: "by Dr. Omar Khan (CV Specialist)",
         totalTime: "40 lectures (180 hrs)",
       },
@@ -106,7 +106,7 @@ export const coursesCard = [
     coursesName: "Reinforcement Learning & AI Agents",
     courTeacher: [
       {
-        dcover: "./images/team/t5.jpg", // Linked to Dr. Lena Schmidt's profile image
+        dcover: "./images/team/t5.jpg", 
         name: "by Dr. Lena Schmidt (RL Expert)",
         totalTime: "100 lectures (250 hrs)",
       },
@@ -120,7 +120,7 @@ export const coursesCard = [
     coursesName: "Ethical AI & Responsible Development",
     courTeacher: [
       {
-        dcover: "./images/team/t6.jpg", // Linked to Prof. David Lee's profile image
+        dcover: "./images/team/t6.jpg", 
         name: "by Prof. David Lee (AI Ethicist)",
         totalTime: "30 lectures (100 hrs)",
       },
@@ -134,7 +134,7 @@ export const coursesCard = [
     coursesName: "Data Preprocessing for AI & ML",
     courTeacher: [
       {
-        dcover: "./images/team/t7.jpg", // Linked to Sarah Chen's profile image
+        dcover: "./images/team/t7.jpg", 
         name: "by Sarah Chen (Data Engineer)",
         totalTime: "20 lectures (75 hrs)",
       },
@@ -148,7 +148,7 @@ export const coursesCard = [
     coursesName: "AI Model Deployment (MLOps)",
     courTeacher: [
       {
-        dcover: "./images/team/t8.jpg", // Linked to Michael Roberts' profile image
+        dcover: "./images/team/t8.jpg", 
         name: "by Michael Roberts (MLOps Specialist)",
         totalTime: "80 lectures (220 hrs)",
       },
@@ -162,8 +162,8 @@ export const coursesCard = [
     coursesName: "Generative AI & Creative Applications",
     courTeacher: [
       {
-        dcover: "./images/team/t3.jpg", // Reusing Dr. Emily White for Generative AI, as no specific image was provided in team for "Dr. Julia Roberts"
-        name: "by Dr. Emily White (Generative AI Expert)", // Updated name to match available instructor or indicate specialization
+        dcover: "./images/team/t3.jpg", 
+        name: "by Dr. Emily White (Generative AI Expert)", 
         totalTime: "50 lectures (160 hrs)",
       },
     ],
@@ -287,5 +287,29 @@ export const team = [
     cover: "./images/team/t8.jpg",
     name: "Michael Roberts",
     work: "GENERATIVE AI DEVELOPER & TRAINER",
+  },
+]
+
+export const testimonal = [
+  {
+    id: 1,
+    name: "ROGER SCOTT",
+    post: "MARKETING MANAGER",
+    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    cover: "./images/testo/t1.webp",
+  },
+  {
+    id: 2,
+    name: "ROGER SCOTT",
+    post: "MARKETING MANAGER",
+    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    cover: "./images/testo/t2.webp",
+  },
+  {
+    id: 3,
+    name: "ROGER SCOTT",
+    post: "MARKETING MANAGER",
+    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    cover: "./images/testo/t3.webp",
   },
 ]
