@@ -118,6 +118,14 @@
     padding: 25%;
 }
 
+.back-contact {
+  background-image: url("../public/images/back-contact.jpg");
+}
+
+.back-team {
+  background-image: url("../public/images/back-team.jpg");
+}
+
 .back h1{
   font-size: 100px;
   font-weight:400;

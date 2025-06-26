@@ -293,23 +293,72 @@ export const team = [
 export const testimonal = [
   {
     id: 1,
-    name: "ROGER SCOTT",
-    post: "MARKETING MANAGER",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-    cover: "./images/testo/t1.webp",
+    name: "ANNA CHEN",
+    post: "LEAD AI ENGINEER",
+    desc: "AI Academia provided me with the hands-on skills and deep theoretical understanding I needed to transition into a lead AI engineering role. The instructors were exceptional, and the course content was directly applicable to industry challenges.",
+    cover: "./images/testo/t1.webp", 
   },
   {
     id: 2,
-    name: "ROGER SCOTT",
-    post: "MARKETING MANAGER",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-    cover: "./images/testo/t2.webp",
+    name: "MARK DAVIS",
+    post: "SENIOR DATA SCIENTIST",
+    desc: "As a data scientist, I wanted to specialize in AI. AI Academia's advanced deep learning course was exactly what I needed. It pushed my limits and opened up new opportunities for complex problem-solving in real-world AI applications.",
+    cover: "./images/testo/t2.webp", 
   },
   {
     id: 3,
-    name: "ROGER SCOTT",
-    post: "MARKETING MANAGER",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-    cover: "./images/testo/t3.webp",
+    name: "SARAH LEE",
+    post: "AI PRODUCT MANAGER",
+    desc: "The AI for Business course at AI Academia helped me bridge the gap between technical AI concepts and strategic business applications. I now confidently lead AI product initiatives and drive innovation within my company.",
+    cover: "./images/testo/t3.webp", 
   },
+]
+
+export const price = [
+  {
+    name: "BASIC AI PLAN",
+    price: "49K", 
+    desc: "Kickstart your AI journey with foundational concepts in machine learning. Access introductory AI courses, essential modules, and our supportive community forum.",
+  },
+  {
+    name: "BEGINNER AI PLAN",
+    price: "79K",
+    desc: "Build on your basic knowledge with advanced machine learning techniques and select deep learning modules. This plan includes project-based learning to apply your skills.",
+  },
+  {
+    name: "PREMIUM AI PLAN",
+    price: "109K",
+    desc: "Gain comprehensive access to all AI courses, expert-led live workshops, personalized mentorship sessions, and dedicated preparation for industry AI certifications.",
+  },
+  {
+    name: "ULTIMATE AI PLAN",
+    price: "149K",
+    desc: "Achieve mastery with all Premium features, plus dedicated career coaching, exclusive access to industry insights, priority support, and early access to new AI content.",
+  },
+]
+export const faq = [
+  {
+    title: "How do I enroll in AI Academia's online courses?",
+    desc: "Enrolling is simple! Navigate to our 'All Courses' page, select the AI program that fits your goals, and follow the step-by-step instructions for registration and payment. You'll gain immediate access to your chosen course content.",
+  },
+  {
+    title: "Are these AI courses suitable for beginners?",
+    desc: "Absolutely! We offer a range of courses designed for all skill levels, from complete beginners with no prior AI experience to advanced practitioners looking to specialize. Each course description details its prerequisites.",
+  },
+  {
+    title: "What kind of support can I expect during my AI course?",
+    desc: "You'll receive comprehensive support, including access to our dedicated instructors for Q&A, active community forums for peer interaction, and often personalized feedback on assignments depending on your chosen plan. Our goal is to ensure your success.",
+  },
+  {
+    title: "Do I receive a certificate upon course completion?",
+    desc: "Yes! Upon successful completion of each course, you'll earn a verifiable certificate of completion from AI Academia, recognizing your newly acquired AI skills and knowledge. These certificates can enhance your professional profile.",
+  },
+  {
+    title: "What are the technical requirements for taking these AI courses?",
+    desc: "Generally, you'll need a stable internet connection, a modern web browser, and a computer capable of running common development environments (like Python with relevant AI libraries). Specific course requirements might vary, so check individual course pages for details.",
+  },
+  {
+    title: "Can I access course materials after completing the course?",
+    desc: "Yes, once you've enrolled in a course, you'll typically retain access to the course materials (lectures, readings, exercises) for a specified period, often lifetime access or for as long as your subscription is active, allowing you to revisit content as needed.",
+  }
 ]
