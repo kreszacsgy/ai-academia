@@ -1,6 +1,7 @@
 .head{
     padding: 20px 0;
     color:#fff;
+    
 }
 
 .logo h1 {
@@ -15,13 +16,14 @@
 
 /*---------header----------*/
 header{
-    background-color: rgba(255,255,255,0.2);
-    margin:0 30px;
-    position:relative;
+    background-color: rgba(255,255,255,0.2);    
+    position:sticky ;
+    top:0;
+    z-index:1000;
 }
 
 header ul{
-    padding: 30px 20px;
+    padding: 30px 7.5%;
 }
 
 header li{
@@ -40,7 +42,7 @@ header ul li a:hover{
 
 .start{
     background-color: #1eb2a6 ;
-    padding: 30px 70px;
+    padding: 30px 7.5%;
     color: #fff;
     clip-path: polygon(10% 0, 100% 0, 100% 100%,0 100%)
 }

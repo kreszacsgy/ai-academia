@@ -1,6 +1,6 @@
 .aboutHome{
     height:auto;
-    position:relative;
+    position:relative;   
 }
 
 .aboutHome #heading {
@@ -72,9 +72,7 @@
   font-weight: 500;
 }
 
-.aboutHome {
-        margin-top:50%;
-    }
+
 
  
 /*----------awrapper------------*/
