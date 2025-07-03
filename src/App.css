@@ -8,8 +8,7 @@
  body{
   font-family: "Roboto", sans-serif;
   background-color: #f8f8f8;
-  background-color:#80ceff;
-  
+  background-color:#cccccc;  
  }
 
  .container{
@@ -21,13 +20,14 @@
     display: flex;
     justify-content: space-between;
  }
+
  .icon {
     width:40px;
     height:40px;
     line-height:40px;
     border-radius:50%;
     text-align:center;
-    background-color: rgba(255,255,255,0.3);
+    background-color: rgba(255,255,255,0.7);
     color: #1eb2a6;
     transition:0.5s;
  }
@@ -44,6 +44,8 @@
 
  li{
     list-style-type:none;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.9);
+    letter-spacing: 0.1rem;
  }
 
  button{
@@ -94,7 +96,7 @@
  #heading h1{
    font-size: 45px;
    margin: 20px 0;
-   text-transform: capitalize;;
+   text-transform: capitalize;   
  }
 
  p{
@@ -126,15 +128,25 @@
   background-image: url("../public/images/back-team.jpg");
 }
 
+.back-pricing {
+  background-image: url("../public/images/back-pricing.jpg");
+}
+
+.back-courses {
+  background-image: url("../public/images/back-courses.jpg");
+}
+
 .back h1{
   font-size: 100px;
   font-weight:400;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
 }
 
 .back h2{
   font-size: 17px;
   font-weight:500;
   text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
 }
 
 .margin{
@@ -163,6 +175,7 @@
   border: 2px solid #1eb2a6;
   width:100%;
   transition:0.5s;
+  align-self: flex-end;
 }
 
 .outline-btn:hover{

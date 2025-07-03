@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Hero.css"
 import Title from '../../common/Title/Title'
+import { Link } from 'react-router-dom'
 
 
 const Hero = () => {
@@ -9,17 +10,16 @@ const Hero = () => {
         <section className="hero">
             <div className="container">
                 <div className="row">
-                    <Title subtitle="WELCOME TO AI ACADEMIA" title="Your Gateway to Cutting-Edge AI Expertise!"/>
+                    <Title subtitle="WELCOME TO AI ACADEMIA" title="Master AI. Lead the Way."/>
                     <p>
-                        Your Gateway to Cutting-Edge AI Expertise!
-Unlock your potential in the rapidly evolving world of Artificial Intelligence. At AI Academia, we believe the future is intelligent, and we're here to equip you with the knowledge and skills to shape it. Dive into the exciting realm of AI and transform your career.
+                        Ready to lead the AI revolution? AI Academia provides the hands-on knowledge and expert guidance you need to thrive. Discover powerful insights, build groundbreaking solutions, and elevate your skills in the rapidly evolving world of Artificial Intelligence.
                     </p>
                     <div className="button">
                         <button className="primary-btn">
-                            GET STARTED NOW <i className="fa fa-long-arrow-alt-right"></i>
-                        </button>
+                            GET STARTED NOW<i className="fa fa-long-arrow-alt-right"></i>
+                        </button> 
                         <button >
-                            VIEW COURSE <i className="fa fa-long-arrow-alt-right"></i>
+                            VIEW COURSES <i className="fa fa-long-arrow-alt-right"></i>
                         </button>
                     </div>
                 </div>

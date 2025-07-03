@@ -11,41 +11,50 @@
 
 .head .icon{
     margin-left: 10px;
-
 }
 
 /*---------header----------*/
 header{
-    background-color: rgba(255,255,255,0.2);    
+    background-color: rgba(255,255,255,0.2);  
+    backdrop-filter: blur(10px);  
     position:sticky ;
     top:0;
     z-index:1000;
 }
 
 header ul{
-    padding: 30px 7.5%;
+    padding: 30px 0 30px 7.5%;
 }
 
 header li{
-    margin-right: 40px;
+    
 }
 
 header ul li a {
     color:#fff;
     font-weight:500;
+    padding:30px 40px 30px 0;
     transition: 0.5s;
 }
 
 header ul li a:hover{
-    color:#1eb2a6
+    color:#1eb2a6;
+    
 }
 
 .start{
     background-color: #1eb2a6 ;
-    padding: 30px 7.5%;
+    padding: 30px 5%;
     color: #fff;
     font-weight:500;
-    clip-path: polygon(10% 0, 100% 0, 100% 100%,0 100%)
+    clip-path: polygon(10% 0, 100% 0, 100% 100%,0 100%);
+    text-wrap:nowrap;
+}
+
+.start a{
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 30px;
 }
 
 

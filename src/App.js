@@ -7,6 +7,8 @@ import CourseHome from './components/Allcourses/CourseHome';
 import Team from './components/Team/Team';
 import Pricing from './components/Pricing/Pricing';
 import Blog from './components/Blog/Blog';
+import Contact from './components/Contact/Contact';
+import Footer from './components/common/Footer/Footer';
 
 
 
@@ -22,7 +24,9 @@ function App() {
           <Route path="/team" element={<Team />}/>
           <Route path="/pricing" element={<Pricing />}/>
           <Route path="/blog" element={<Blog />}/>
+          <Route path="/contact" element={<Contact />}/>
         </Routes>
+      <Footer/>
       </Router>
     </>
   );
